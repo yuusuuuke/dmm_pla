@@ -31,20 +31,34 @@ margin: 0px 20px;
 .main-visual {
   width: 100%;
   height: 300px;
-  font-size: 32px;
-  background-color: black;
+  font-size: 16px;
+  background-image: url(assets/mv.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .main-visual-content {
-  width: 350px;
+  width: 40%;
   height: 300px;
-  background-color: gold;
+  text-align: center;
+  background-color: rgba( 0, 0, 0, 0.5);
+  padding-top: 105px;
+}
+
+.main-visual-text {
+  color: aliceblue;
+}
+
+.main-visual-name {
+  margin-top: 30px;
+  color: aliceblue;
 }
 
 .main {
   width: 840px;
   display: flex;
   justify-content: center;
+/*justify-content:横軸で整列方法指定*/
   margin: 0 auto;
 }
 
