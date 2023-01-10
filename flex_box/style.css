@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex {
+  background-color: aquamarine;
+  height: 50vh;
+  padding: 10px;
+  display: flex;
+}
+
+.flex>div {
+  background-color: #f7f7f7;
+  margin: 5px;
+  font-size: 30px;
+}
