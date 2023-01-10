@@ -20,6 +20,18 @@ header {
 header .heading {
   /* headerタグ内のheadingクラスにのみ反映される */
   font-size: 32px;
+  font-family: Chalkduster, "Bradley Hand", Courier, "Segoe Print", sans-serif;;
+}
+
+.social {
+  position: absolute;
+  top: 22px;
+  right: 22px;
+}
+
+.social i {
+  display: inline-block;
+  margin-left: 20px;
 }
 
 .nav-list {
@@ -32,6 +44,8 @@ header .heading {
   list-style: none;
   display: inline-block;
   margin: 0 20px;
+    font-family: Chalkduster, "Bradley Hand", Courier, "Segoe Print", sans-serif;;
+
 }
 
 .main-visual {
